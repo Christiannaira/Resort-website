@@ -662,8 +662,8 @@ section {
 
 
 .links-content .row {
-    width: 350px;
-    text-align: center;
+    max-width: 350px;
+    text-align: left;
 }
 
 .links-content .row .logo {
@@ -711,7 +711,7 @@ section {
 .top-navigate {
     position: fixed;
     bottom: 10%;
-    right: 2%;
+    right: 4%;
     background-color: #257220;
     border-radius: 50%;
     z-index: 1000;
