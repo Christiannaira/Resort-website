@@ -424,6 +424,7 @@ section {
 .cta-content {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cta-content .row {
@@ -793,5 +794,10 @@ footer p {
 
     .contact-content {
         flex-wrap: wrap;
+    }
+
+    .cta-content .row:last-child {
+        text-align: left;
+        margin-top: 1.5rem;
     }
 }
